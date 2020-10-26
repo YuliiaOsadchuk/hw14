@@ -1,0 +1,64 @@
+.icon {
+    background-image: url(../img/sprite.png);
+    display: inline-block;
+}
+
+.icon-adv1 {
+    background-position: -155px 0px;
+    width: 55px;
+    height: 60px;
+}
+
+.icon-adv2 {
+    background-position: -155px -60px;
+    width: 55px;
+    height: 60px;
+}
+
+.icon-adv3 {
+    background-position: 0px -156px;
+    width: 60px;
+    height: 54px;
+}
+
+.icon-arrow-left {
+    background-position: -210px -57px;
+    width: 23px;
+    height: 62px;
+}
+
+.icon-arrow-right {
+    background-position: -210px -119px;
+    width: 23px;
+    height: 62px;
+}
+
+.icon-price-bg {
+    background-position: 0px 0px;
+    width: 155px;
+    height: 156px;
+}
+
+.icon-reason1 {
+    background-position: -155px -120px;
+    width: 55px;
+    height: 34px;
+}
+
+.icon-reason2 {
+    background-position: -108px -156px;
+    width: 45px;
+    height: 45px;
+}
+
+.icon-reason3 {
+    background-position: -210px 0px;
+    width: 39px;
+    height: 57px;
+}
+
+.icon-reason4 {
+    background-position: -60px -156px;
+    width: 48px;
+    height: 48px;
+}
