@@ -351,21 +351,6 @@ button {
     justify-content: center;
 }
 
-.reasons .reason .square img {
-    width: 45px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.reasons .reason .square img.width60 {
-    width: 60px;
-}
-
-.reasons .reason .square img.width35 {
-    width: 35px;
-}
-
 .video {
     margin-top: 30px;
 }
