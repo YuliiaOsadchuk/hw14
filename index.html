@@ -4,11 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+
+
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+
     <link rel="stylesheet" href="css/screen.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/preloader.css">
+
+
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 </head>
 
@@ -182,9 +200,18 @@
     <section class="reviews">
         <div class="wrapper">
             <h2 class="h2">отзывы о нашем <span class="yellow">видеопарктронике</span></h2>
-            <!-- <img src="img/arrow-left.png" alt="" class="arrow-left"> -->
             <i class="icon icon-arrow-left arrow-left"></i>
             <div class="review-slider">
+                <div class="slide">
+                    <img src="img/review1.jpg" alt="" class="main-review-img">
+                    <p class="review-text">
+                        Опять долгие ночи в интернете в поисках обзоров и сравнений… Проблема таких устройств что у них либо дизайн уродский огромный — в полтора раза больше штатного, а я вообще не люблю заднее зеркало, так как за 3 года вождения рабочих "каблучков" типа Кангу
+                        и Берлинго вообще привык без него обходится, либо тех. данные никакие — камеры очень плохого качества… Уже думал что печаль… :( Но вот за пару дней поисков наткнулся на то о чем мечтал действительно — HD Recorder. Нашел его у одного
+                        из драйвечан, и у других. Все в восторге от данного устройства. Качество видео очень хорошее, в машине не видно его вообще, крепления на штатное зеркало любой машины, вообщем то что доктор прописал!
+                    </p>
+                    <div class="review-author"><img src="img/review1-ava.jpg" alt="" class="ava"><b>Константин</b><i>г.
+                    Днепропетровск</i></div>
+                </div>
                 <div class="slide">
                     <img src="img/review1.jpg" alt="" class="main-review-img">
                     <p class="review-text">
@@ -275,6 +302,7 @@
 
         </div>
     </footer>
+    <script src="./js/main.js"></script>
     <script src="lib/plugins.js"></script>
     <script>
         // 2. This code loads the IFrame Player API code asynchronously.
@@ -321,6 +349,7 @@
             player.stopVideo();
         }
     </script>
+
 </body>
 
 </html>
